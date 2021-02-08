@@ -18,20 +18,22 @@ JavaScript explanation based on my understanding...
     In other languages compilation and execution both process are done one by one but in JS, JS engine first compiles 
     program and then imideatly executes the code so we called JS as interpreted or Just-in-time compiled language. 
     
-  * dynamic 
-  * single-threaded
+  * Dynamic: Unlike to other languages in Js we do not need to define type when we are declaring variables. JS finds
+    type of variable dynamically at run time.
+    
+  * Single-threaded with Non blocking Event loop: JS is single threaded means there is only one single thread which 
+    executes JS code in CPU, so JS can do only one thing at a time. But what is we have some task which is taking time
+    longer time??, In Js there is special functionality called Event loop which takes this time taking code and runs in
+    the background. And once they are finished it put it back in the main stack. 
+    
   * garbage-collected: When we write a code it's possible that some variables are taking space in the memory while we don't 
     require them at all. So, with this functionallity JS automaticly clear the spaces in the memory which is not currently in use.
-   * First-class functions
-   * Non-blocking event loop concurrency model.
+ 
   
   
+# How JS works behind the scene ??
   
-# Points : 
-  
- * What is JavaScript
- * What is the use of JS
- * How JS works behind the scene
+
  * JS variables
  * JS datatypes
  * JS type conversion
