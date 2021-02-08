@@ -8,13 +8,13 @@ JavaScript explanation based on my understanding...
   
 # Points : 
   
- * What is JavaScript,
- * What is the use of JS,
- * How JS works behind the scene,
- * JS variables,
- * JS datatypes,
- * JS type conversion,
- * JS operator,
- * JS basic Functions, Function expression, Arrow Function,
+ * What is JavaScript
+ * What is the use of JS
+ * How JS works behind the scene
+ * JS variables
+ * JS datatypes
+ * JS type conversion
+ * JS operator
+ * JS basic Functions, Function expression, Arrow Function
  * JS loops, For & While
   
