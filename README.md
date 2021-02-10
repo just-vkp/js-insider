@@ -65,11 +65,39 @@ JavaScript explanation based on my understanding...
   * Objects
   * null: It is special type of value and the value itself is "null". 
   * undefined: Meaning of undefined is "the value is no assigned or defined".
-  
+
   
 # JS type conversion
 # JS operator
 # Loops: for and while
 # function: function declaration, function expression and arrow function
  
+ # JS old name
+  * Mocha
+ # Not always JS
+  * alert() and console.* is not in JS specification. But they are supported by browsers.
+  * console is just a tool(dev. tool) to make it easy to run and to use js for developers. It is not pure JS Environment.
+  
+ # Backward compatibility
+  * Don't break the web.
+  * If somthing added to Js spec. than in future it can't be removed.
+  * Modern js code may be not run in older browser but old js code always run on modern browsers.
+  * HTML & CSS is forward compatible.
+  * If we run 2019 css in 2010 browser than it doesn't break,browser just skip unrecognized css.
+  * Forward compatibility is impractical for programming language.
+  
+# Transpiling 
+ * Tool to convert one from another.
+ * If we want to run 2019 Js code into 2016 Browser than we can use babeljs transpiler
+ 
+# Is js is compiled?
+ * Yes
+ * First js engine parse the code and then it will be converted to byte code and then execution happens.
+ 
+# 'use strict'
+ * Like a parents strict mode tell us what to do and what no to.
+ * strict mode tell us that by following this way you can optimize your code and get best chance at performence.
+ 
+ 
+  
   
