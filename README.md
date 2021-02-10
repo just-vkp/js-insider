@@ -60,7 +60,7 @@ JavaScript explanation based on my understanding...
   
 # JS datatypes
   * Number 
-  * String
+  * String: Orderd collection of character
   * Boolean
   * Objects
   * null: It is special type of value and the value itself is "null". 
@@ -93,6 +93,7 @@ JavaScript explanation based on my understanding...
 # Is js is compiled?
  * Yes
  * First js engine parse the code and then it will be converted to byte code and then execution happens.
+ * Js gives eroor before execution
  
 # 'use strict'
  * Like a parents strict mode tell us what to do and what no to.
