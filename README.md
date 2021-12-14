@@ -177,5 +177,4 @@ JavaScript explanation based on my understanding...
 * In execution, first this = {} object is created inside the function and then function body is executed and added as a property of this object. 
 * function returns this object.
 * **Purpose : To implement reusable object creation code.
-* Usually constructor returns this object but if we want to return something else it must be an object which overwrite this object othewise function always returns this object. 
-* 
+* Usually constructor returns this object but if we want to return something else it must be an object which overwrite this object othewise function always returns this object.
